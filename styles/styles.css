@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/fed01.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+#container {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    max-width: 50%;
+    border: 3px solid black;
+    /* opacity: 85%; */
+}
+
+#increment-btn{
+    background-color: darkblue;
+}
+
+#save-btn{
+    background-color: darkred;
+}
+
+#save-el {
+    font-weight: lighter;
+    font-size: larger;
+}
